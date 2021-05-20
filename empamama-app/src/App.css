@@ -1,0 +1,381 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/* NavBar CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Lobster&display=swap');
+
+nav {
+  display: flex;
+  /* background-color: #282c34; */
+  background-image: linear-gradient( black, #282c34);
+  color: whitesmoke;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+}
+
+a {
+  color: whitesmoke;
+  margin: 0 0 0 0; 
+  padding: 8%;
+  transition: .3s;
+  /* border: 2px solid purple; */
+}
+
+a:hover {
+  background-color: orange;
+}
+
+a:Link {
+  text-decoration: none;
+}
+
+.nameHeader {
+  font-family: 'Lobster', cursive;
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+  width: 13%;
+  align-items: center;
+  margin-left: 1%;
+  /* border: 2px solid green; */
+}
+
+.linksHeader {
+  display: flex;
+  /* font-family: 'Assistant', sans-serif;
+  font-size: 1.2rem; */
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  margin-right: 3%;
+  /* border: 2px solid red; */
+}
+
+
+
+/* Home CSS */
+.heroBanner{
+  display: flex;
+  background: url(https://st3.depositphotos.com/2593537/15280/i/1600/depositphotos_152804752-stock-photo-typical-spanish-empanadas-isolated-on.jpg);
+  
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  justify-content: center;
+  /* border: 2px solid green; */
+}
+
+.heroImage {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border: 2px solid #282c34;
+  border-style: hidden solid hidden;
+  width: 40%;
+}
+
+
+.heroMainText{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 3em;
+  color: whitesmoke;
+  mix-blend-mode: exclusion;
+  text-shadow: 10px;
+  /* border: 2px solid pink; */
+  height: 34%;
+}
+
+
+.heroSubText {
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+  font: 3em;
+  /* border: 2px solid yellow; */
+  height: 8%;
+}
+
+.announcementText {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 16%;;
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+:root {
+  --border-size: 0.125rem;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --font-family: monospace;
+  --color-primary: white;
+  --color-secondary: black;
+  --color-tertiary: dodgerblue;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --space: 1rem;
+}
+
+.multi-button {
+  display: flex;
+  width: 40%;
+  box-shadow: var(--shadow) 4px 4px;
+}
+
+.multi-button button {
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  padding:
+    calc(var(--space) / 1.125)
+    var(--space)
+    var(--space);
+  border: var(--border-size) solid black;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-transform: lowercase;
+  text-shadow: var(--shadow) 2px 2px;
+  transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+  border-left: var(--border-size) solid black;
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+  transition: .3s;
+}
+
+.multi-button button:focus {
+  outline: var(--border-size) dashed var(--color-primary);
+  outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+  flex-grow: 1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  transform: translateY(var(--border-size));
+}
+
+.multi-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+/* About CSS */
+
+.aboutBackground {
+  display: flex;
+  background-color: whitesmoke;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.aboutTextContainer {
+  display: flex;
+  margin: 3% 2% 7% 13%;
+  height: 80%;
+  width: 30%;
+  /* border: 2px solid red; */
+}
+
+.aboutTextContainer h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.9em;
+  /* border: 2px solid green; */
+}
+
+.aboutTextContainer p {
+  color:black;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.5em;
+  /* border: 2px solid yellow; */
+}
+
+.aboutImageContainer {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMhXfgj7hspZlk15UltSmhWfjb0obQqMzHA&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 4.5%;
+  height: 75%;
+  width: 40%;
+  border-radius: 10px;
+  background-size: cover;
+  object-position: left bottom;
+  border: 2px solid #282c34;
+}
+
+/* Menu CSS */
+
+.menuHeader {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid purple; */
+}
+
+.menuHeader h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.9em;
+  /* border: 2px solid green; */
+}
+
+.menuHeader h4 {
+  color:black;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.5em;
+  /* border: 2px solid yellow; */
+  margin-top: -2%;
+}
+
+.menuItems {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  text-align: center;
+  margin-top: 4%;
+  margin-right: 5%;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+}
+
+.menuBackground {
+  background-image: url(https://previews.123rf.com/images/chandlervid85/chandlervid851705/chandlervid85170500085/77661558-typical-spanish-empanadas-isolated-on-white-background.jpg);
+  background-size: cover;
+  height: 90vh;
+}
+
+/* Contact CSS */
+
+.contactBackground {
+  border: 2px solid #282c34;
+  background-image: url(https://thumbs.dreamstime.com/z/latin-american-baked-beef-empanadas-sauces-food-background-latin-american-baked-beef-empanadas-sauce-148830510.jpg);
+  height: 90vh;
+}
+
+.contactText {
+  border: 2px solid #282c34;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 6%;
+  width: 40%;
+}
+
+.contactText p {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.5em;
+}
+
+
+
