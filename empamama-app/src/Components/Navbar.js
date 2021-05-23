@@ -7,9 +7,9 @@ import Menu from './Menu';
 import { useHistory } from "react-router-dom";
 //push
 export default function NavBar() {
-    const { history } = useHistory();
+    const history = useHistory();
     const routeToMenu = () => {
-      history.push("/Menu")
+      history.push("/Home")
     }
 
     return (
