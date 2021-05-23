@@ -142,7 +142,8 @@ a:Link {
 /* Home CSS */
 .heroBanner{
   display: flex;
-  background: url(https://st3.depositphotos.com/2593537/15280/i/1600/depositphotos_152804752-stock-photo-typical-spanish-empanadas-isolated-on.jpg);
+  /* background: url(https://st3.depositphotos.com/2593537/15280/i/1600/depositphotos_152804752-stock-photo-typical-spanish-empanadas-isolated-on.jpg); */
+  background: url(/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1612.jpg);
   
   width: 100%;
   height: 90vh;
@@ -300,7 +301,7 @@ a:Link {
 }
 
 .aboutImageContainer {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMhXfgj7hspZlk15UltSmhWfjb0obQqMzHA&usqp=CAU);
+  background-image: url(/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1578_3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 4.5%;
@@ -349,16 +350,20 @@ a:Link {
 }
 
 .menuBackground {
-  background-image: url(https://previews.123rf.com/images/chandlervid85/chandlervid851705/chandlervid85170500085/77661558-typical-spanish-empanadas-isolated-on-white-background.jpg);
+  background-image: url(/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1609.jpg);
   background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: bottom;
   height: 90vh;
+  /* width: 100%; */
 }
 
 /* Contact CSS */
 
 .contactBackground {
   border: 2px solid #282c34;
-  background-image: url(https://thumbs.dreamstime.com/z/latin-american-baked-beef-empanadas-sauces-food-background-latin-american-baked-beef-empanadas-sauce-148830510.jpg);
+  background-image: url(/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1568.jpg);
+  background-size: cover;
   height: 90vh;
 }
 
