@@ -301,7 +301,7 @@ a:Link {
 }
 
 .aboutImageContainer {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMhXfgj7hspZlk15UltSmhWfjb0obQqMzHA&usqp=CAU);
+  background-image: url(/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1578_3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 4.5%;
@@ -362,7 +362,8 @@ a:Link {
 
 .contactBackground {
   border: 2px solid #282c34;
-  background-image: url(https://thumbs.dreamstime.com/z/latin-american-baked-beef-empanadas-sauces-food-background-latin-american-baked-beef-empanadas-sauce-148830510.jpg);
+  background-image: url(/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1568.jpg);
+  background-size: cover;
   height: 90vh;
 }
 
