@@ -9,21 +9,21 @@ export default function Home () {
     }
     return (
         <div>
-            <section class="heroBanner">
-                <div class="heroImage">
-                    <div class="heroMainText">
+            <section className="heroBanner">
+                <div className="heroImage">
+                    <div className="heroMainText">
                         <h1>Welcome to Empamama's</h1>
                     </div>
-                    <div class="heroSubText">
+                    <div className="heroSubText">
                         <h2>~ Authentic Filipino Cuisine ~</h2>
                     </div>
-                    <div class="multi-container">
-                        <div class='multi-button'>
+                    <div className="multi-container">
+                        <div className='multi-button'>
                             <button onClick={routeToMenu}>Menu</button>
                         </div>
                     </div>
                     <div>
-                        <h2 class="announcementText">Coming soon!</h2>
+                        <h2 className="announcementText">Coming soon!</h2>
                     </div>
                 </div>
             </section>

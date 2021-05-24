@@ -5,7 +5,7 @@ import About from './About';
 import Contact from './Contact';
 import Menu from './Menu';
 import { useHistory } from "react-router-dom";
-//push
+//test
 export default function NavBar() {
     const history = useHistory();
     const routeToMenu = () => {
