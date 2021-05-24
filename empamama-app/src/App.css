@@ -143,7 +143,7 @@ a:Link {
 .heroBanner{
   display: flex;
   /* background: url(https://st3.depositphotos.com/2593537/15280/i/1600/depositphotos_152804752-stock-photo-typical-spanish-empanadas-isolated-on.jpg); */
-  background-image: url('/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1612.jpg');
+  background-image: url('./Images/IMG_1612.jpg');
   
   width: 100%;
   height: 90vh;
@@ -183,6 +183,7 @@ a:Link {
   font-family: 'Assistant', sans-serif;
   font: 3em;
   /* border: 2px solid yellow; */
+  margin-top: 2%;
   height: 8%;
 }
 
@@ -301,7 +302,7 @@ a:Link {
 }
 
 .aboutImageContainer {
-  background-image: url('/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1578_3.jpg');
+  background-image: url('./Images/IMG_1578_3.jpg');
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 4.5%;
@@ -350,7 +351,7 @@ a:Link {
 }
 
 .menuBackground {
-  background-image: url('/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1609.jpg');
+  background-image: url('./Images/IMG_1609.jpg');
   background-size: cover;
   /* background-repeat: no-repeat; */
   background-position: bottom;
@@ -362,7 +363,7 @@ a:Link {
 
 .contactBackground {
   border: 2px solid #282c34;
-  background-image: url('/Users/williamdye/WillGit/empamamade/empamama-app/src/Images/IMG_1568.jpg');
+  background-image: url('./Images/IMG_1568.jpg');
   background-size: cover;
   height: 90vh;
 }
